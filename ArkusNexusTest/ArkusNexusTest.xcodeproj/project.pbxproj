@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5983896B757E05105AC210F8 /* Pods_ArkusNexusTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398992026D110C78D3149184 /* Pods_ArkusNexusTest.framework */; };
+		E500EEAA246A054100D4AE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEA9246A054100D4AE02 /* AppDelegate.swift */; };
+		E500EEAE246A054100D4AE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEAD246A054100D4AE02 /* ViewController.swift */; };
+		E500EEB1246A054100D4AE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E500EEAF246A054100D4AE02 /* Main.storyboard */; };
+		E500EEB3246A054800D4AE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E500EEB2246A054800D4AE02 /* Assets.xcassets */; };
+		E500EEB6246A054800D4AE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E500EEB4246A054800D4AE02 /* LaunchScreen.storyboard */; };
+		E500EEC1246A2F9300D4AE02 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEBF246A2F9300D4AE02 /* BaseRequest.swift */; };
+		E500EEC2246A2F9300D4AE02 /* ListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEC0246A2F9300D4AE02 /* ListRequest.swift */; };
+		E500EEC4246A303E00D4AE02 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEC3246A303E00D4AE02 /* Global.swift */; };
+		E500EEC7246A37FF00D4AE02 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEC6246A37FF00D4AE02 /* ItemTableViewCell.swift */; };
+		E500EECA246A5C8000D4AE02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EEC9246A5C8000D4AE02 /* DetailViewController.swift */; };
+		E500EECC246A674B00D4AE02 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EECB246A674A00D4AE02 /* OptionTableViewCell.swift */; };
+		E500EECE246A6D6500D4AE02 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500EECD246A6D6400D4AE02 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		398992026D110C78D3149184 /* Pods_ArkusNexusTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkusNexusTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8687F2E14B2B253D65B8FE9E /* Pods-ArkusNexusTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusNexusTest.release.xcconfig"; path = "Target Support Files/Pods-ArkusNexusTest/Pods-ArkusNexusTest.release.xcconfig"; sourceTree = "<group>"; };
+		ABBFA5959124ADCE77E68763 /* Pods-ArkusNexusTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusNexusTest.debug.xcconfig"; path = "Target Support Files/Pods-ArkusNexusTest/Pods-ArkusNexusTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E500EEA6246A054100D4AE02 /* ArkusNexusTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusNexusTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E500EEA9246A054100D4AE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E500EEAD246A054100D4AE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E500EEB0246A054100D4AE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E500EEB2246A054800D4AE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E500EEB5246A054800D4AE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E500EEB7246A054800D4AE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E500EEBF246A2F9300D4AE02 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		E500EEC0246A2F9300D4AE02 /* ListRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRequest.swift; sourceTree = "<group>"; };
+		E500EEC3246A303E00D4AE02 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		E500EEC6246A37FF00D4AE02 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		E500EEC9246A5C8000D4AE02 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E500EECB246A674A00D4AE02 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
+		E500EECD246A6D6400D4AE02 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E500EEA3246A054100D4AE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5983896B757E05105AC210F8 /* Pods_ArkusNexusTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABA014F8BD6195232ED25F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398992026D110C78D3149184 /* Pods_ArkusNexusTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E500EE9D246A054000D4AE02 = {
+			isa = PBXGroup;
+			children = (
+				E500EEA8246A054100D4AE02 /* ArkusNexusTest */,
+				E500EEA7246A054100D4AE02 /* Products */,
+				EA0D3B450F38BB1AB3940573 /* Pods */,
+				AABA014F8BD6195232ED25F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E500EEA7246A054100D4AE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E500EEA6246A054100D4AE02 /* ArkusNexusTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E500EEA8246A054100D4AE02 /* ArkusNexusTest */ = {
+			isa = PBXGroup;
+			children = (
+				E500EEC8246A5C6700D4AE02 /* Controllers */,
+				E500EEC5246A37EB00D4AE02 /* UI */,
+				E500EEBE246A2F7800D4AE02 /* Request */,
+				E500EEBD246A2F3C00D4AE02 /* Utils */,
+				E500EEA9246A054100D4AE02 /* AppDelegate.swift */,
+				E500EEAF246A054100D4AE02 /* Main.storyboard */,
+				E500EEB2246A054800D4AE02 /* Assets.xcassets */,
+				E500EEB4246A054800D4AE02 /* LaunchScreen.storyboard */,
+				E500EEB7246A054800D4AE02 /* Info.plist */,
+			);
+			path = ArkusNexusTest;
+			sourceTree = "<group>";
+		};
+		E500EEBD246A2F3C00D4AE02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E500EEC3246A303E00D4AE02 /* Global.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E500EEBE246A2F7800D4AE02 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E500EEBF246A2F9300D4AE02 /* BaseRequest.swift */,
+				E500EEC0246A2F9300D4AE02 /* ListRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E500EEC5246A37EB00D4AE02 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E500EEC6246A37FF00D4AE02 /* ItemTableViewCell.swift */,
+				E500EECB246A674A00D4AE02 /* OptionTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E500EEC8246A5C6700D4AE02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E500EECD246A6D6400D4AE02 /* WebViewController.swift */,
+				E500EEAD246A054100D4AE02 /* ViewController.swift */,
+				E500EEC9246A5C8000D4AE02 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA0D3B450F38BB1AB3940573 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABBFA5959124ADCE77E68763 /* Pods-ArkusNexusTest.debug.xcconfig */,
+				8687F2E14B2B253D65B8FE9E /* Pods-ArkusNexusTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E500EEA5246A054100D4AE02 /* ArkusNexusTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E500EEBA246A054800D4AE02 /* Build configuration list for PBXNativeTarget "ArkusNexusTest" */;
+			buildPhases = (
+				DAAF0FF7732B4B041E06C662 /* [CP] Check Pods Manifest.lock */,
+				E500EEA2246A054100D4AE02 /* Sources */,
+				E500EEA3246A054100D4AE02 /* Frameworks */,
+				E500EEA4246A054100D4AE02 /* Resources */,
+				03543A075569E6456019CA20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArkusNexusTest;
+			productName = ArkusNexusTest;
+			productReference = E500EEA6246A054100D4AE02 /* ArkusNexusTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E500EE9E246A054000D4AE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rene Cabañas Lopez";
+				TargetAttributes = {
+					E500EEA5246A054100D4AE02 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E500EEA1246A054000D4AE02 /* Build configuration list for PBXProject "ArkusNexusTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E500EE9D246A054000D4AE02;
+			productRefGroup = E500EEA7246A054100D4AE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E500EEA5246A054100D4AE02 /* ArkusNexusTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E500EEA4246A054100D4AE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500EEB6246A054800D4AE02 /* LaunchScreen.storyboard in Resources */,
+				E500EEB3246A054800D4AE02 /* Assets.xcassets in Resources */,
+				E500EEB1246A054100D4AE02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03543A075569E6456019CA20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusNexusTest/Pods-ArkusNexusTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusNexusTest/Pods-ArkusNexusTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArkusNexusTest/Pods-ArkusNexusTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAAF0FF7732B4B041E06C662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkusNexusTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E500EEA2246A054100D4AE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500EECC246A674B00D4AE02 /* OptionTableViewCell.swift in Sources */,
+				E500EECE246A6D6500D4AE02 /* WebViewController.swift in Sources */,
+				E500EEAE246A054100D4AE02 /* ViewController.swift in Sources */,
+				E500EEC2246A2F9300D4AE02 /* ListRequest.swift in Sources */,
+				E500EEAA246A054100D4AE02 /* AppDelegate.swift in Sources */,
+				E500EEC4246A303E00D4AE02 /* Global.swift in Sources */,
+				E500EEC7246A37FF00D4AE02 /* ItemTableViewCell.swift in Sources */,
+				E500EEC1246A2F9300D4AE02 /* BaseRequest.swift in Sources */,
+				E500EECA246A5C8000D4AE02 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E500EEAF246A054100D4AE02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E500EEB0246A054100D4AE02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E500EEB4246A054800D4AE02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E500EEB5246A054800D4AE02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E500EEB8246A054800D4AE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E500EEB9246A054800D4AE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E500EEBB246A054800D4AE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBFA5959124ADCE77E68763 /* Pods-ArkusNexusTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULN4GX4PX7;
+				INFOPLIST_FILE = ArkusNexusTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.ArkusNexusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E500EEBC246A054800D4AE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8687F2E14B2B253D65B8FE9E /* Pods-ArkusNexusTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULN4GX4PX7;
+				INFOPLIST_FILE = ArkusNexusTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.ArkusNexusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E500EEA1246A054000D4AE02 /* Build configuration list for PBXProject "ArkusNexusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E500EEB8246A054800D4AE02 /* Debug */,
+				E500EEB9246A054800D4AE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E500EEBA246A054800D4AE02 /* Build configuration list for PBXNativeTarget "ArkusNexusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E500EEBB246A054800D4AE02 /* Debug */,
+				E500EEBC246A054800D4AE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E500EE9E246A054000D4AE02 /* Project object */;
+}
